@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Top from "./components/Top"
+import "./index.css";
 
 
 const App = () => {
@@ -7,9 +9,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        
-      </h1>
+      <Top />
     </>
   )
 }
