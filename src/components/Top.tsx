@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import Footer from "./Footer";
 
 const Top = () => {
     return (
@@ -15,6 +15,9 @@ const Top = () => {
               </p> 
             </div>
             <section>
+              <img src="/bg_top_header.jpg" />
+            </section>
+            <section>
               <h4>プロフィール</h4>
               <img src="/img_profile.jpg" />
               <h5>@teleriaquque</h5>
@@ -28,9 +31,7 @@ const Top = () => {
               </div>
             </section>
 
-            <section>
-              <img src="/bg_top_header.jpg" />
-            </section>
+            <Footer />
         </>
     )
 }
