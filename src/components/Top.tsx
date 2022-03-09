@@ -1,5 +1,6 @@
 import React from "react";
 
+import Profile from "./Profile";
 import Footer from "./Footer";
 
 const Top = () => {
@@ -17,20 +18,8 @@ const Top = () => {
             <section>
               <img src="/bg_top_header.jpg" />
             </section>
-            <section>
-              <h4>プロフィール</h4>
-              <img src="/img_profile.jpg" />
-              <h5>@teleriaquque</h5>
-              <p>
-                猫雑貨・猫おもちゃ、その他ハンドメイド
-                時々農家になります。
-              </p>
-              <div>
-                <img src="sns_twitter.png"/>
-                <img src="sns_insta.png" />
-              </div>
-            </section>
-
+            
+            <Profile />
             <Footer />
         </>
     )
