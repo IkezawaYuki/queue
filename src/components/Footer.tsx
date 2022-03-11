@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container h-96 bg-yellow-900 text-white">
+    <div className="h-96 bg-yellow-900 text-white">
       <img src="/logo_footer.svg" className="mx-auto pt-6 h-36 w-auto"/>
       <ul className="m-2 flex justify-center divide-x divide-solid">
         <li><a className="mx-4" href="#">トップページ</a></li>  
