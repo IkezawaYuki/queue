@@ -17,7 +17,44 @@ const Top = () => {
             <section>
               <img src="/bg_top_header.jpg" />
             </section>
-            <h4 className="text-center">委託販売先</h4>
+            <h4 className="text-3xl pt-24 pb-12 font-bold text-center">委託販売先</h4>
+            <p className="text-center">当店は現在以下の3店舗のレンタルボックスにて委託販売をさせていただいております。
+</p>
+            <p className="pb-12 text-center">商品を実際に手にとってお確かめいただけますので、お近くの方はお気軽にお立ち寄り下さい。</p>
+            <div className="flex">  
+              <div><img src="img_rental_kuroneko_douhua.jpg" alt="" /></div>
+              <div>
+                <h4 className="bg-gray-900 text-white">台湾スイーツ豆花専門 黒猫豆花 様</h4>
+                <div>
+                  <div className="flex">
+                    <p className="w-1/5">住所</p>
+                    <p className="w-4/5">神奈川県川崎市高津区二子2丁目7-40　フォーレスト多摩川102</p>
+                  </div>
+                  <div className="flex">
+                    <p className="w-1/5">営業時間</p>
+                    <p className="w-4/5">10:00-21:00（時短営業中は20:00まで）</p>
+                  </div>
+                  <div className="flex">
+                    <p className="w-1/5">定休日</p>
+                    <p className="w-4/5">水曜日</p>
+                  </div>
+                  <div className="flex">
+                    <p className="w-1/5">website</p>
+                    <p className="w-4/5">https://kuroneko-douhua.com/</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div>
+              <div><img src="img_rental_mayscafe.jpg" alt="" /></div>
+              <div></div>
+            </div>
+            <div>
+              <div><img src="img_rental_nekoshiki.jpg" alt="" /></div>
+              <div></div>
+            </div>
+            
 
             <h4 className="pt-12 text-center">プロフィール</h4>
             <img className="mx-auto w-32" src="/img_profile.jpg" />
