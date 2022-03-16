@@ -44,7 +44,7 @@ const Top = () => {
               </div>
             </div>
 
-            <table className="table">
+            <table className="table w-auto my-4">
               <tbody>
                 { 
                   blogs.map((blog) => {
@@ -59,7 +59,13 @@ const Top = () => {
                 }
               </tbody>
             </table>
+
+            <div className="flex">
+              <div className="w-8"><img src="ico_cat.svg" alt="" /></div>
+              <h4 className="py-4 w-1/2 ml-3 mr-24 text-3xl font-bold">おすすめ商品</h4>
+            </div>
                 
+            
           </div>
 
 
