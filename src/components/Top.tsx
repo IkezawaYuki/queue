@@ -65,7 +65,17 @@ const Top = () => {
               <h4 className="py-4 w-1/2 ml-3 mr-24 text-3xl font-bold">おすすめ商品</h4>
             </div>
                 
-            
+            <div className="grid grid-cols-3">
+              <div className="w-48">
+                <img src="/dmy_pd001.jpg" alt="" />
+              </div>
+              <div className="w-48">
+                <img src="/dmy_pd002.jpg" alt="" />
+              </div>
+              <div className="w-48">
+                <img src="/dmy_pd003.jpg" alt="" />
+              </div>
+            </div>
           </div>
 
 
