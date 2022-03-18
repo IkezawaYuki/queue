@@ -62,28 +62,44 @@ const Top = () => {
 
             <div className="flex">
               <div className="w-8"><img src="ico_cat.svg" alt="" /></div>
-              <h4 className="py-4 w-1/2 ml-3 mr-24 text-3xl font-bold">おすすめ商品</h4>
+              <h4 className="py-4 ml-3 mr-24 text-3xl font-bold border-b">おすすめ商品</h4>
             </div>
                 
-            <div className="grid grid-cols-3">
-              <div className="w-48">
-                <img src="/dmy_pd001.jpg" alt="" />
+            <div className="flex justify-center">
+              <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
+                <div className="mx-6 mt-6 w-80">
+                  <img src="/dmy_pd001.jpg" alt="" />
+                  <h4 className="border-dotted mt-4 border-gray-300 border-b text-lg font-bold">【焼印付】爪とぎ型キーホルダー</h4>
+                  <p className="h-12 text-sm mt-4">可愛らしいミニチュアサイズの「猫の爪とぎ」型キーホルダー。木製ケースの裏面には猫シルエットの焼印付きでオシャレ！</p>
+                  <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
+                  <div className="text-center py-2 border boader-solid border-green-600 rounded-md my-2"><a className="block" href="#">詳細を見る</a></div>
+                </div>
               </div>
-              <div className="w-48">
-                <img src="/dmy_pd002.jpg" alt="" />
+              <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
+                <div className="mx-6 mt-6 w-80">
+                  <img src="/dmy_pd001.jpg" alt="" />
+                  <h4 className="border-dotted mt-4 border-gray-300 border-b text-lg font-bold">肉球ブローチ（7個セット）</h4>
+                  <p className="h-12 text-sm mt-4">定番の肉球型のレジンブローチ（7個セット）です。</p>
+                  <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
+                  <div className="text-center py-2 border boader-solid border-green-600 rounded-md my-2"><a className="block" href="#">詳細を見る</a></div>
+                </div>
               </div>
-              <div className="w-48">
-                <img src="/dmy_pd003.jpg" alt="" />
+              <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
+                <div className="mx-6 mt-6 w-80">
+                  <img src="/dmy_pd001.jpg" alt="" />
+                  <h4 className="border-dotted mt-4 border-gray-300 border-b text-lg font-bold">レース猫首輪（鈴付き）</h4>
+                  <p className="h-12 text-sm mt-4">アースカラーのレース＋アンティーク調の金具でシックな印象の猫首輪です。</p>
+                  <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
+                  <div className="text-center py-2 border boader-solid border-green-600 rounded-md my-2"><a className="block" href="#">詳細を見る</a></div>
+                </div>
               </div>
             </div>
           </div>
 
 
-
           <div className="bg-amber-100">
             <h4 className="text-3xl pt-24 pb-12 font-bold text-center">委託販売先</h4>
-            <p className="text-center">当店は現在以下の3店舗のレンタルボックスにて委託販売をさせていただいております。
-</p>
+            <p className="text-center">当店は現在以下の3店舗のレンタルボックスにて委託販売をさせていただいております。</p>
             <p className="pb-12 text-center">商品を実際に手にとってお確かめいただけますので、お近くの方はお気軽にお立ち寄り下さい。</p>
           
             <div className="flex justify-center py-6">  
