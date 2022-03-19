@@ -35,7 +35,7 @@ const Top = () => {
             <img src="/bg_top_header.jpg" />
           </section>
 
-          <div className="mx-48 mt-24">
+
             <div className="flex">
               <div className="w-8"><img src="ico_cat.svg" alt="" /></div>
               <h4 className="py-4 w-1/2 ml-3 mr-24 text-3xl font-bold">お知らせ</h4>
@@ -61,8 +61,8 @@ const Top = () => {
             </table>
 
             <div className="flex">
-              <div className="w-8"><img src="ico_cat.svg" alt="" /></div>
-              <h4 className="py-4 ml-3 mr-24 text-3xl font-bold border-b">おすすめ商品</h4>
+              <div className="ml-12 w-8"><img src="ico_cat.svg" alt="" /></div>
+              <h4 className="py-4 ml-3 text-3xl font-bold border-b w-10/12">おすすめ商品</h4>
             </div>
                 
             <div className="flex justify-center">
@@ -94,7 +94,7 @@ const Top = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
 
 
           <div className="bg-amber-100">
