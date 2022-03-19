@@ -37,22 +37,22 @@ const Top = () => {
 
 
             <div className="flex">
-              <div className="w-8"><img src="ico_cat.svg" alt="" /></div>
-              <h4 className="py-4 w-1/2 ml-3 mr-24 text-3xl font-bold">お知らせ</h4>
+              <div className="ml-12 w-8"><img src="ico_cat.svg" alt="" /></div>
+              <h4 className="py-4 ml-3 text-3xl font-bold border-b w-10/12">お知らせ</h4>
               <div className="">
                 <div className="py-4"><button className="bg-slate-800 text-white px-4 py-1 rounded">一覧へ</button></div>
               </div>
             </div>
 
-            <table className="table w-auto my-4">
+            <table className="table m-auto mt-16 mb-48">
               <tbody>
                 { 
-                  blogs.map((blog) => {
+                  blogs.map((blog, index) => {
                     return (
-                      <tr className="m-2 p-2">
-                        <td>{blog.datetime}</td>
-                        <td><span className="m-2 text-xs rounded text-white bg-red-500 px-4 py-1">{blog.tag}</span></td>
-                        <td>{blog.title}</td>
+                      <tr key={index} className="my-12 p-2 border-b border-t">
+                        <td className="py-2 w-48">{blog.datetime}</td>
+                        <td className="w-48"><span className="m-2 text-xs rounded text-white bg-red-500 px-4 py-1">{blog.tag}</span></td>
+                        <td className="w-128">{blog.title}</td>
                       </tr>
                     );
                   })
@@ -60,12 +60,15 @@ const Top = () => {
               </tbody>
             </table>
 
+
+
             <div className="flex">
               <div className="ml-12 w-8"><img src="ico_cat.svg" alt="" /></div>
               <h4 className="py-4 ml-3 text-3xl font-bold border-b w-10/12">おすすめ商品</h4>
             </div>
+            
                 
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-48">
               <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
                 <div className="mx-6 mt-6 w-80">
                   <img src="/dmy_pd001.jpg" alt="" />
@@ -92,6 +95,34 @@ const Top = () => {
                   <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
                   <div className="text-center py-2 border boader-solid border-green-600 rounded-md my-2"><a className="block" href="#">詳細を見る</a></div>
                 </div>
+              </div>
+            </div>
+
+            <div className="flex">
+              <div className="ml-12 w-8"><img src="ico_cat.svg" alt="" /></div>
+              <h4 className="py-4 ml-3 text-3xl font-bold border-b w-10/12">商品カテゴリー</h4>
+            </div>
+
+            <div className="grid mx-48 grid-cols-3">
+              <div className="h-32">
+                <div className="float-left"><img src="thumb_cate01.jpg" alt="" /></div>
+                <p>レジンブローチ</p>
+              </div>
+              <div>
+                <div className="float-left"><img src="thumb_cate02.jpg" alt="" /></div>
+                <p>レジンブローチ</p>
+              </div>
+              <div>
+                <div className="float-left"><img src="thumb_cate03.jpg" alt="" /></div>
+                <p>レジンブローチ</p>
+              </div>
+              <div>
+                <div className="float-left"><img src="thumb_cate04.jpg" alt="" /></div>
+                <p>レジンブローチ</p>
+              </div>
+              <div>
+                <div className="float-left"><img src="thumb_cate05.jpg" alt="" /></div>
+                <p>レジンブローチ</p>
               </div>
             </div>
           
@@ -152,7 +183,7 @@ const Top = () => {
                 
               </div>
             </div>
-            <div className="flex justify-center py-6">  
+            <div className="flex justify-center pt-6 pb-24">  
               <div className=""><img src="img_rental_nekoshiki.jpg" alt="" /></div>
               <div className="w-1/2">
                 <h4 className="ml-6 py-2 pl-4 text-xl font-bold bg-gray-900 text-white">台湾スイーツ豆花専門 黒猫豆花 様</h4>
