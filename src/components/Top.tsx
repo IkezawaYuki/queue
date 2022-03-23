@@ -66,7 +66,7 @@ const Top = () => {
           </div>
           <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
             <div className="mx-6 mt-6 w-80">
-              <img src="/dmy_pd001.jpg" alt="" />
+              <img src="/dmy_pd002.jpg" alt="" />
               <h4 className="border-dotted mt-4 border-gray-300 border-b text-lg font-bold">肉球ブローチ（7個セット）</h4>
               <p className="h-12 text-sm mt-4">定番の肉球型のレジンブローチ（7個セット）です。</p>
               <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
@@ -75,7 +75,7 @@ const Top = () => {
           </div>
           <div className="mt-12 mx-3 border-2 border-solid border-orange-300">
             <div className="mx-6 mt-6 w-80">
-              <img src="/dmy_pd001.jpg" alt="" />
+              <img src="/dmy_pd003.jpg" alt="" />
               <h4 className="border-dotted mt-4 border-gray-300 border-b text-lg font-bold">レース猫首輪（鈴付き）</h4>
               <p className="h-12 text-sm mt-4">アースカラーのレース＋アンティーク調の金具でシックな印象の猫首輪です。</p>
               <div className="mt-8 ml-auto w-24 font-bold">1000円<span className="text-xs font-normal">(税込)</span></div>
