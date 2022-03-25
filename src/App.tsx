@@ -4,6 +4,7 @@ import Top from "./components/Top"
 import Products from './components/Products';
 import "./index.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Details from './components/Details';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Top />} />
           <Route path="/products" element={<Products />} />
+          <Route path='/details' element={<Details/>} />
         </Routes>
       </BrowserRouter>
     </>
